@@ -1,4 +1,4 @@
-# Título do Projeto
+# Minha viagem
 
 `CURSO: Sistemas de Informação`
 
@@ -10,11 +10,11 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Ademir Paulo Pimentel Júnior
+* Adilmar Muniz Parreira Moreira
+* Artur Wilson Dias
+* Diego Soares de Souza
+* Maria Eduarda Suzart de Carvalho
 * Tiago Atahualpa Hermoza Menezes 
 
 ## Orientador
