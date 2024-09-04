@@ -6,7 +6,8 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O presente projeto se apresenta como uma solução web para auxiliar no planejamento de viagens em diversos aspectos, como, por exemplo, passeios, hospedagem, custos, entre outros. 
+O site terá uma estrutura similar a de um fórum, no qual pessoas compartilham relatos e avaliam, por meio de nota, diversas categorias do destino visitado. 
 
 ## Integrantes
 
