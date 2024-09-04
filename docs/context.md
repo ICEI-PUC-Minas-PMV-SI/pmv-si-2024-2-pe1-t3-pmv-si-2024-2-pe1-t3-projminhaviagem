@@ -1,54 +1,39 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
-
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
-
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+Ao planejar uma viagem, muitas dificuldades e dúvidas surgem, como, por exemplo, onde me hospedar, como é a recepção da cidade em relação a turistas, qual o custo em geral dos passeios, quais passeios vale a pena serem feitos, qual o tempo ideal de permanência no local, qual o nível de acessibilidade e mobilidade, qual tipo de estrutura a cidade oferece, qual o nível de segurança etc. Assim, para resolução deste problema, minha proposta é um site, no estilo fórum, onde, após o cadastro, o usuário possa avaliar em diversos níveis e categorias aspectos gerais da viagem.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, **não** é a hora de comentar sobre a solução/aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+O planejamento de uma viagem envolve diversas dificuldades e dúvidas como, por exemplo, onde se hospedar, a recepção da cidade em relação a turistas, estipulação de custo geral dos passeios, qual o tempo razoável de permanência no destino, nível de acessibilidade e mobilidade, nível de infraestrutura oferecida pela cidade, nível de segurança, entre outros.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Objetivo Geral 
+  Desenvolver um site, no estilo fórum que, após o cadastro, o usuário possa avaliar e consultar em diversos níveis e categorias aspectos gerais de um destino.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Objetivos Específicos
+* Solucionar as principais dores dos viajantes ao planejar suas viagens. Ao permitir que usuários avaliem diversos aspectos de um destino, como hospedagem, segurança, acessibilidade e custo-benefício 
+* O site no estilo fórum será alimentado pelos usuários com informações de suas viagens o que torna as informações mais confiáveis.
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A criação de um site na forma de fórum para avaliação de destinos turísticos visa solucionar as principais dores dos viajantes ao planejar suas viagens. O mercado de turismo oferece diversas plataformas para planejamento de viagens, mas poucas se concentram em avaliações detalhadas e personalizadas feitas pelos próprios usuários. Ao incentivar a troca de informações sobre destinos menos conhecidos e opções de turismo responsável, a plataforma contribui para a diversificação do fluxo turístico e a preservação dos recursos naturais e culturais
+Nosso site se diferencia por:
 
-Lembre-se de pesquisar e utilizar números que justifiquem por que é importante que tal problema seja resolvido ou que mostrem o impacto do problema na vida das pessoas.
+Economia de tempo e dinheiro: Ao consultar as avaliações, os viajantes podem evitar destinos que não atendem às suas expectativas e encontrar opções mais adequadas ao seu perfil, além de permitir uma rápida visão e diagnóstico.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Planejamento mais completo: A plataforma abrange uma ampla gama de categorias, permitindo que os usuários planejem todos os aspectos de sua viagem, desde a escolha da hospedagem até a definição dos passeios.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Compartilhamento de experiências: O formato de fórum incentiva a troca de informações e experiências entre os usuários, criando uma comunidade de viajantes.
+
+Abordagem colaborativa: O conteúdo é gerado pelos próprios usuários, garantindo informações atualizadas e relevantes.
+
+Flexibilidade: A plataforma permite que os usuários avaliem diversos aspectos de um destino, adaptando-se às necessidades de cada viajante.
+
+Comunidade ativa: O formato de fórum incentiva a interação entre os usuários, permitindo que tirem dúvidas e troquem dicas.
+
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Turistas Inexperientes, Viajantes com Necessidades Especiais, Viajantes com Orçamento Limitado, Aventureiros e Ecoturistas, Viajantes Solo, Viajantes LGBT+, Viajantes Culturais.
