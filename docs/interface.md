@@ -19,11 +19,25 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 
-### Home
-A tela inicial apresenta um menu de navegação superior com as principais seções do portal. A área inicial apresenta a galeria de fotos na forma de uma grade. Nesta tela, são apresentados as postagens mais recentes do fórum
+Tela de Identificação 
+
+Nesta tela, o usuário cadastra suas informações pessoais básicas (nome, e-mail e senha) para criar uma conta e acessar a plataforma. 
+
+
+
+HomePage/Explorar 
+
+É a primeira página que o usuário vê ao acessar o site e serve como um guia para o restante do conteúdo, é onde estão localizados a tela de cadastro e todos os postes do fórum após o login  
 
 ![Wireframe](img/home.png)
 
+HomePage/Comunidade 
+
+É onde estão localizadas as opções de postar no fórum e parâmetros de viagens, dúvidas, destinos, promoções, dicas, gastronomia, cultura, socializar com outras pessoas em viagens solo, entre outras. 
+
+HomePage/Meu espaço 
+
+É onde se localizam as postagens salvas e as postagens do usuário 
  
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
