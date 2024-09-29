@@ -1,8 +1,16 @@
 # Template padrão do site
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+Template padrão 
 
-Explique as guias de estilo utilizadas no seu projeto.
+Tela de cadastro 
+
+Tela Home 
+
+Tela explorar após o login 
+
+Tela de comunidade  
+
+Tela meu espaço  
 
 ## Design
 
