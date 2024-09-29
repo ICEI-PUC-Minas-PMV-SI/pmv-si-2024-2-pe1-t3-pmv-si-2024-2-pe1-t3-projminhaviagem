@@ -5,7 +5,8 @@ Conforme detalhado nas especificações, apresentaremos o fluxo do usuário para
 
 ## User Flow
 
-![Uploading Welcome to FigJam.jpg…]()
+![Fluxograma](https://github.com/user-attachments/assets/2a7412bc-734f-47d7-91ac-e64472b1c8e7)
+
 
 
 Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
