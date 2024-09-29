@@ -1,9 +1,7 @@
 
 # Projeto de Interface
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+Conforme detalhado nas especificações, apresentaremos o fluxo do usuário para a plataforma de fórum de viagens. A plataforma foi construída com base em requisitos funcionais e não funcionais, bem como nas histórias de usuário, garantindo que atenda às expectativas dos viajantes. O foco principal é proporcionar uma experiência intuitiva, oferecendo recursos para auxiliar na organização de viagens personalizadas e na resolução de imprevistos durante as viagens. 
 
 ## User Flow
 
