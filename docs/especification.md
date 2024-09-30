@@ -15,20 +15,9 @@ Pedro, 45 anos, empresário, procura destinos exclusivos e com experiências ún
 Maria, 30 anos, designer gráfica, procura destinos com foco em sustentabilidade e preservação ambiental, hospedagens ecológicas e com práticas sustentáveis, atividades ao ar livre e contato com a natureza, transporte público ou alternativas ecológicas (bicicleta, caminhada), informações sobre produtos locais e comércio justo.
 Carlos, 55 anos, aposentado, procura destinos acessíveis com rampas, elevadores e banheiros adaptados, hospedagens com quartos adaptados para pessoas com mobilidade reduzida, transporte adaptado e com fácil acesso a pontos turísticos, informações sobre serviços de assistência médica e seguro-viagem.
 
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
-
 ## Histórias de Usuários
 
-Como pessoa, gostaria de me cadastrar no site para publicar dúvidas e responder outros usuários.
+Como usuário, gostaria de me cadastrar no site para publicar dúvidas e responder outros usuários.
 Como usuário, gostaria de buscar destinos de viagem através de notas dentro de categoria para agilizar e facilitar o planejamento da minha viagem.
 Como usuário, gostaria de criar um tópico perguntando sobre aspectos gerais e específicos de um determinado destino para planejar melhor minha próxima viagem.
 Como usuário, gostaria de responder e comentar publicações de outras pessoas, para ajudá-las no planejamento de suas viagens.
@@ -38,20 +27,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Pessoa  | gostaria de me cadastrar no site para publicar dúvidas e responder outros usuários           | interagir e ajudar outros usuários               |
+|usuário  | gostaria de me cadastrar no site para publicar dúvidas e responder outros usuários           | interagir e ajudar outros usuários               |
 |Usuário       | gostaria de buscar destinos de viagem através de notas dentro de categoria                 | agilizar e facilitar o planejamento da minha viagem |
 |Usuário       | gostaria de criar um tópico perguntando sobre aspectos gerais e específicos de um determinado destino                 | planejar melhor minha próxima viagem |
 |Usuário       | gostaria de responder e comentar publicações de outras pessoas                 | ajudá-las no planejamento de suas viagens |
 |Administrador       | gostaria de responder e comentar publicações de outras pessoas               | ter maior controle do acesso ao site |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
@@ -61,7 +42,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | 
 |------|-----------------------------------------|----| 
-|RF-001| A pessoa deverá ser capaz de cadastrar-se | ALTA |  
+|RF-001| O usuário deverá ser capaz de cadastrar-se | ALTA |  
 |RF-002| O usuário deverá ser capaz de fazer login   | ALTA | 
 |RF-003| O usuário deverá ser capaz de postar review/comentário   | ALTA | 
 |RF-004| O usuário deverá ser capaz de pesquisar um destino pelo nome da cidade   | MÉDIA | 
