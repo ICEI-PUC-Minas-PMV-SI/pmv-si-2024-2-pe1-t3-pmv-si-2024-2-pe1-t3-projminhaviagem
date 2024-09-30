@@ -2,7 +2,7 @@
 
 Template padrão
 
-![Wireframe](img/template.png)
+![Wireframe](img/template.jpg)
 
 Tela de cadastro 
 
@@ -14,7 +14,7 @@ Tela Home - Explorar
 
 Tela de comunidade  
 
-![Wireframe](img/comunidade.png)
+![Wireframe](img/comunidade.jpg)
 
 Tela meu espaço  
 
