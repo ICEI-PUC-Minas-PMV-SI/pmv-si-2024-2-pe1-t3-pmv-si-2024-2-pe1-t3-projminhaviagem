@@ -13,6 +13,10 @@ i {
     color: var(--cor-branca);
 }
 
+img {
+    border-radius: 20px;
+}
+
 #main {
     height: 100%;
     width: 100%;
@@ -100,13 +104,22 @@ button {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
 }
 
-.botao-confirmar {
+.botao-primario {
     background-color: var(--cor-primaria);
     color: white;
 }
 
+.botao-secundario {
+    background-color: transparent;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.452);
+}
+
 button:hover {
-    background-color: var(--cor-secundaria);
     color: black;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.botao-primario:hover {
+    background-color: var(--cor-secundaria);
 }
