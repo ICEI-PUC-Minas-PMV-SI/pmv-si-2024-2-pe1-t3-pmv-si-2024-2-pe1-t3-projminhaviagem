@@ -1,16 +1,24 @@
 # Template padrão do site
 
-Template padrão 
+Template padrão
+
+![Wireframe](img/template.jpg)
 
 Tela de cadastro 
 
-Tela Home 
+![Wireframe](img/cadastro.png)
 
-Tela explorar após o login 
+Tela Home - Explorar
+
+![Wireframe](img/home.png)
 
 Tela de comunidade  
 
+![Wireframe](img/comunidade.jpg)
+
 Tela meu espaço  
+
+![Wireframe](img/meu_espaco.png)
 
 ## Design
 
