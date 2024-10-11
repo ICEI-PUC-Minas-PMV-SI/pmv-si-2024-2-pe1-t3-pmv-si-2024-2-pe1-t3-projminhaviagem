@@ -1,0 +1,100 @@
+:root {
+    --cor-primaria: #1d4f6d;
+    --cor-secundaria: #68aacf;
+    --cor-branca: #ffe;
+}
+
+i {
+    color: var(--cor-branca);
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-image: url("../assets/background.png");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#content-wrapper {
+    width: 75%;
+    min-height: 100vh;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+}
+
+nav > div > a {
+    border: 1px solid var(--cor-secundaria);
+    border-bottom: 0px;
+}
+
+html,
+body {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+header {
+    height: 150px;
+    background-color: var(--cor-primaria);
+    color: var(--cor-branca);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: xx-large;
+    font-family: "Inika", serif;
+}
+
+.ativo {
+    background-color: var(--cor-secundaria);
+}
+
+header div {
+    margin: auto;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1d4f6d;
+    font-size: larger;
+}
+
+.nav-bar a {
+    padding: 17px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.nav-bar img {
+    margin: auto;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    height: 30px;
+}
+
+button {
+    font-size: large;
+    padding: 8px 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: transparent 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for both color and shadow */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.botao-confirmar {
+    background-color: var(--cor-primaria);
+    color: white;
+}
+
+button:hover {
+    background-color: var(--cor-secundaria);
+    color: black;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
