@@ -1,3 +1,8 @@
+/* 
+NÃO EDITAR ESTE ARQUIVO, CASO QUEIRA ADICIONAR UM ESTILO GLOBAL, ME MANDE MSG
+A EDIÇÃO DESSE ARQUIVO POR DIFERENTES PESSOAS PODE GERAR CONFLITOS DE VERSÃO!
+*/
+
 :root {
     --cor-primaria: #1d4f6d;
     --cor-secundaria: #68aacf;
@@ -28,6 +33,13 @@ i {
 nav > div > a {
     border: 1px solid var(--cor-secundaria);
     border-bottom: 0px;
+    transition: red 0.5s ease;
+}
+
+
+
+nav > div > a:hover {
+    background-color: var(--cor-secundaria);
 }
 
 html,
@@ -84,7 +96,7 @@ button {
     border-radius: 20px;
     border: none;
     cursor: pointer;
-    transition: transparent 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for both color and shadow */
+    transition: transparent 0.3s ease, _ 0.3s ease;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
 }
 
