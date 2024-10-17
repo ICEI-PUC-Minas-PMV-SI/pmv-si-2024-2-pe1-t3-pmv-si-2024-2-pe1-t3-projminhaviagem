@@ -33,7 +33,19 @@
         <main id="main">
             <!-- Escreva seu código todo dentro de content-wrapper -->
             <div id="content-wrapper">
-                
+                <form name="form_login" action="do_login.html" method="POST">
+                    <br><input type="email" name="e-mail" value="" placeholder="E-mail" required><br>
+                    <br><input type="name" name="nome_usuario" value="" placeholder="Nome completo" required><br>
+                    <br>
+                    Data de nascimento:
+                    <br><input type="date" name="data de nascimento" value="" placeholder="Data de nascimento"><br>
+                    <br><input type="text" name="usuario" value="" placeholder="Usuário"><br>
+                    <br><input type="password" name="senha" value="" placeholder="Senha"><br>            
+                    <br>
+                    <input type="checkbox" name="acao" value="tc" required> Ok, concordo com os Termos e Condições<br>
+                    <br>
+                    <input type="submit" value="Criar conta">
+                </form>    
             </div>
         </main>
     </body>
