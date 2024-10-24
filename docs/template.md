@@ -45,9 +45,6 @@ Apresente as fontes que serão utilizadas e sua função no site. As principais 
 
 Defina os ícones que serão utilizados e suas respectivas funções.
 
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
-
 ![icone](https://github.com/user-attachments/assets/b373f2fe-34d1-44ea-be01-d0a633189798)
 
 > **Links Úteis**:
