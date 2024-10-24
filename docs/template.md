@@ -48,7 +48,7 @@ Defina os ícones que serão utilizados e suas respectivas funções.
 Apresente os estilos CSS criados para cada um dos elementos apresentados.
 Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
 
-![designer](https://github.com/user-attachments/assets/06f5be12-ac31-4a88-8434-3037de8c1fbb)
+![icone](https://github.com/user-attachments/assets/b373f2fe-34d1-44ea-be01-d0a633189798)
 
 > **Links Úteis**:
 >
