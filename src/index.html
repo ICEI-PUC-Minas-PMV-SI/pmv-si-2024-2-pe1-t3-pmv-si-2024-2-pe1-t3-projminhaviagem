@@ -10,7 +10,6 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
         <link rel="stylesheet" href="style/style.css" />
-        <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap" rel="stylesheet" />
     </head>
     <body>
         <!-- Não mexer no header! -->
@@ -33,12 +32,71 @@
         <main id="main">
             <!-- Escreva seu código todo dentro de content-wrapper -->
             <div id="content-wrapper">
+                <div id="linha-botao">
+                    <a href="#"> Todos </a>
+                    <a href="#"> Solos </a>
+                    <a href="#"> Familia </a>
+                    <a href="#"> Aventura </a>
+                    <a href="#"> Cultura </a>
+                </div>
+                <div id="conteudo" >
+                    <div class="card">
+                        <h2> <i class="bi bi-geo-alt-fill"> </i> Porto Seguro-BA 
+                        <i class="bi bi-heart"> </i> </h2>
+                        <img src="assets/porto_seguro.png" alt="imagem">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nam, distinctio reprehenderit aut beatae et, maxime quos iste exercitationem, nobis officiis quibusdam? Eum nulla ab ea, mollitia laborum asperiores voluptatem! </p>
+                    </div>
+                    <div class="card">
+                        <h2> <i class="bi bi-geo-alt-fill"> </i> Ouro Preto-MG 
+                        <i class="bi bi-heart"> </i> </h2>
+                        <img src="assets/ouro_preto.png" alt="imagem">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat at soluta iure numquam velit praesentium reiciendis maiores ab ratione id, pariatur vel dicta corporis. Fugit officia fugiat architecto laborum nemo. </p>
+                    </div>
+                    <div class="card">
+                        <h2> <i class="bi bi-geo-alt-fill"></i> Alter do Chão-PA 
+                        <i class="bi bi-heart"> </i> </h2>
+                        <img src="assets/alter_chao.png" alt="imagem">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sunt natus voluptas itaque ipsa quaerat delectus, quasi in eligendi harum sint ratione. Vel corrupti obcaecati veniam dicta praesentium commodi est. </p>
+                    </div>
+                    <div class="card">
+                        <h2> <i class="bi bi-geo-alt-fill"></i> Aiuruoca-MG 
+                        <i class="bi bi-heart"> </i> </h2>
+                        <img src="assets/aiuruoca.png" alt="imagem">
+                        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti numquam excepturi nostrum amet! Quasi accusamus repudiandae dolore reiciendis, atque aperiam praesentium at fugiat molestias. Nostrum ea excepturi illo ipsam quibusdam! </p>
+                    </div>
+                </div>
             </div>
         </main>
     </body>
 </html>
 
-<script></script>
-
 <style>
+div#conteudo{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+div#conteudo > div{
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    font-size: 0.8em;
+}
+
+.card > img {
+    border-radius: 20px;
+    width: 250px;
+    height: 125px;
+}
+
 </style>
