@@ -27,8 +27,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | João | index.html |
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês | Ana Paula | cadastro-noticia.html |
+|RF-001| A aplicação deve permitir que o usuário realize o cadastro | Ademir | index.html Cadastro|
+|RF-002| A aplicação deve permitir que o usuário acesse as postagens de outros usuários | Diego | index.html Forum |
+|RF-003| A aplicação deve permitir que o usuário visualize todas as postagens | Eduarda Suzart | home.html / home2.html |
+|RF-004| A aplicação deve permitir que o usuário gerencie as postagens favoritadas | Adilmar | index.html Meu espaço |
+|RF-005| A aplicação deve permitir que o usuário gerencie suas postagens | Tiago | index.html postagem |
+|RF-006| A aplicação deve permitir que o usuário realize troca de senha | Artur | modal esqueci minha senha|
 
 ## Descrição das estruturas:
 
