@@ -8,14 +8,14 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <style>
-        /* div#botao{
+        div#botao{
             display: flex;
             flex-flow: row wrap;
             justify-content: space-evenly;
             align-items: center;
             border-radius: 10px;
         }
-        div#botao > a {
+        div#botao > button {
             color: white;
             width: 100px;
             padding: 5px;
@@ -27,10 +27,10 @@
             color: black;
             text-decoration: none;
         }
-        div#botao a:hover{
+        div#botao button:hover{
             background-color: #68aacf;
-        } */
-        /* div#conteudo{
+        } 
+         div#conteudo{
             display: flex;
             flex-flow: row wrap;
             justify-content: center;
@@ -67,7 +67,7 @@
             width: 260px;
             text-align: justify;
             font-size: 0.8em;
-        } */
+        } 
         </style>
     </head>
     <body>
@@ -91,32 +91,32 @@
             <!-- Escreva seu código todo dentro de content-wrapper -->
             <div id="content-wrapper">
                 <div id="botao">
-                    <a href="#"> Todos </a>
-                    <a href="#"> Solos </a>
-                    <a href="#"> Familia </a>
-                    <a href="#"> Aventura </a>
-                    <a href="#"> Cultura </a>
-                </div>
+                    <button class="btn" data-categoria="todos">Todos</button>
+                    <button class="btn" data-categoria="solos">Solos</button>
+                    <button class="btn" data-categoria="familia">Familia</button>
+                    <button class="btn" data-categoria="aventura">Aventura</button>
+                    <button class="btn" data-categoria="cultura">Cultura</button>
+                  </div>
                 <div id="conteudo" >
-                    <div>
+                    <div data-categoria="solos">
                         <h1> <i class="bi bi-geo-alt-fill"> </i> Porto Seguro-BA 
                         <i class="bi bi-heart"> </i> </h1>
                         <img src="img/image 1.png" alt="imagem">
                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nam, distinctio reprehenderit aut beatae et, maxime quos iste exercitationem, nobis officiis quibusdam? Eum nulla ab ea, mollitia laborum asperiores voluptatem! </p>
                     </div>
-                    <div>
+                    <div data-categoria="familia">
                         <h1> <i class="bi bi-geo-alt-fill"> </i> Ouro Preto-MG 
                         <i class="bi bi-heart"> </i> </h1>
                         <img src="img/image 2.png" alt="imagem">
                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat at soluta iure numquam velit praesentium reiciendis maiores ab ratione id, pariatur vel dicta corporis. Fugit officia fugiat architecto laborum nemo. </p>
                     </div>
-                    <div>
+                    <div data-categoria="aventura">
                         <h1> <i class="bi bi-geo-alt-fill"></i> Alter do Chão-PA 
                         <i class="bi bi-heart"> </i> </h1>
                         <img src="img/image 3.png" alt="imagem">
                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sunt natus voluptas itaque ipsa quaerat delectus, quasi in eligendi harum sint ratione. Vel corrupti obcaecati veniam dicta praesentium commodi est. </p>
                     </div>
-                    <div>
+                    <div data-categoria="solos">
                         <h1> <i class="bi bi-geo-alt-fill"></i> Aiuruoca-MG 
                         <i class="bi bi-heart"> </i> </h1>
                         <img src="img/image 4.png" alt="imagem">
@@ -127,8 +127,25 @@
         </main>
     </body>
 </html>
+<script> 
+const botoes = document.querySelectorAll('#botao button');
+const conteudo = document.querySelectorAll('#conteudo div');
+botoes.forEach((botao) => {
+  botao.addEventListener('click', () => {
+    const categoria = botao.getAttribute('data-categoria');
 
-<script></script>
-
-<style>
-</style>
+    conteudo.forEach((item) => {
+      if (categoria === 'todos') {
+        item.style.display = 'block';
+      } else {
+        const itemCategoria = item.getAttribute('data-categoria');
+        if (itemCategoria === categoria) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      }
+    });
+  });
+});
+</script>
