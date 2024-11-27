@@ -43,3 +43,15 @@ document.getElementById('criarConta').addEventListener('click', function () {
         this.textContent = 'Criar conta';
     }, 2000);
 });
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.querySelector("form"); // Seleciona o formulário
+  const usuarioInput = document.querySelector("[name='usuario']"); // Campo de usuário
+  const senhaInput = document.querySelector("[name='senha']"); // Campo de senha
+  form.addEventListener("submit", function (event) {
+    // Verifica se os campos estão preenchidos
+    if (!usuarioInput.value.trim() || !senhaInput.value.trim()) {
+      event.preventDefault(); // Impede o envio do formulário
+      alert("Por favor, preencha os campos Usuário e Senha."); // Mostra alerta ao usuário
+    }
+  });
+});
