@@ -1,0 +1,238 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    height: 100vh;
+    margin: 0;
+}
+ 
+.container {
+    max-width: 900px; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.instructions {
+    margin-bottom: 20px;
+}
+
+.instructions p {
+    margin: 10px 0;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+label {
+    margin-top: 15px;
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"], textarea {
+    width: 100%; 
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+textarea {
+    height: 150px; 
+    padding-left: 5px;
+}
+
+.message-container {
+    position: relative;
+    width: 100%;
+}
+
+.icons {
+    position: absolute;
+    top: 125px;
+    left: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.icons i {
+    cursor: pointer;
+    font-size: 20px;
+    color: #555;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cancelar {
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+} 
+
+.enviar {
+    background-color: #1d4f6d; 
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8; 
+}
+
+/* Nova estilização para a lista de postagens */
+.lista-postagens-container {
+    display: none; /* Oculta por padrão */
+    max-width: 900px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.lista-postagens h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.postagem {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.postagem h3 {
+    margin: 0 0 10px;
+}
+
+.postagem p {
+    margin: 0 0 15px;
+    color: #333;
+}
+
+.postagem button {
+    margin-right: 10px;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+
+.postagem button.editar {
+    background-color: #f5c209;
+    color: white;
+}
+
+.postagem button.excluir {
+    background-color: #ca3232;
+    color: white;
+}
+
+/* Botão "Nova Postagem" */
+.nova-postagem {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 15px;
+    background-color: #1d4f6d;
+    color: white;
+    text-align: center;
+    text-decoration: none; 
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nova-postagem:hover {
+    opacity: 0.8;
+}
+
+
+.mensagem-sucesso {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+.mensagem-sucesso.visivel {
+    opacity: 1;
+}
+
+.mensagem-sucesso.oculto {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+.comentarios {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.comentarios h4 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.lista-comentarios {
+    margin-bottom: 10px;
+}
+
+.lista-comentarios p {
+    background: #f9f9f9;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.campo-comentario {
+    width: calc(100% - 90px); /* Botão ocupa 90px */
+    padding: 8px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+.adicionar-comentario {
+    padding: 8px 15px;
+    background-color: #2d7a2a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.adicionar-comentario:hover {
+    background-color: #164355;
+}
