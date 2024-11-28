@@ -3,51 +3,53 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Minha viagem</title>
-        <link rel="stylesheet" href="../../style/style.css">
+        <link rel="stylesheet" href="../../style/style.css" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap" rel="stylesheet" />
+        <script src="../header/header.js"></script>
+
         <style>
-            *{
+            * {
                 box-sizing: border-box;
-                font-family:"Inika", serif;
+                font-family: "Inika", serif;
                 margin: 0px;
                 padding: 0px;
             }
-        div#botao{
-            display: flex;
-            flex-flow: row nowrap;
-            justify-content: space-evenly;
-            align-items: center;
-            border-radius: 10px;
-        }
-        div#conteudo > div{
-            display: block;
-            margin: 20px;
-            padding: 20px;
-        }
-            .bi-geo-alt-fill{
+            div#botao {
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-evenly;
+                align-items: center;
+                border-radius: 10px;
+            }
+            div#conteudo > div {
+                display: block;
+                margin: 20px;
+                padding: 20px;
+            }
+            .bi-geo-alt-fill {
                 color: black;
             }
-            div#conteudo > div > h1{
+            div#conteudo > div > h1 {
                 font-weight: normal;
                 text-align: center;
                 font-size: 1.3em;
                 margin: 10px;
                 padding: 5px;
             }
-            .bi-heart{
+            .bi-heart {
                 color: red;
             }
-            div#stars{
+            div#stars {
                 text-align: center;
             }
-            .bi-star{
+            .bi-star {
                 color: red;
                 font-size: 1.2em;
             }
-            div#mae{
+            div#mae {
                 display: flex;
                 flex-flow: row nowrap;
                 align-items: center;
@@ -55,21 +57,21 @@
             div#mae > p {
                 font-size: 1.2em;
             }
-            .perfil{
+            .perfil {
                 width: 100px;
                 height: 100px;
                 border-radius: 50%;
             }
-            div#conteudo > div > p{
+            div#conteudo > div > p {
                 font-size: 0.8em;
             }
-            .img{
+            .img {
                 display: flex;
                 flex-flow: row wrap;
                 justify-content: flex-start;
                 align-items: flex-start;
             }
-            img{
+            img {
                 margin: 10px;
                 padding: 10px;
                 width: 250px;
@@ -78,59 +80,63 @@
         </style>
     </head>
     <body>
-        <!-- Não mexer no header! -->
-        <header>
-            <div>
-                <i class="bi bi-geo-alt"></i>
-                Minha Viagem
-            </div>
-            <div><i class="bi bi-person-circle"></i></div>
-        </header>
-
-        <nav>
-            <div class="nav-bar">
-                <a class="ativo" href="/src/index.html"> <i class="bi bi-star-fill"></i> Explorar </a>
-                <a href="/src/features/forum/index.html"> <i class="bi bi-star-fill"></i>Comunidade</a>
-                <a href="/src/features/meu_espaco/index.html"> <i class="bi bi-star-fill"></i>Meu espaço</a>
-            </div>
-        </nav>
         <main id="main">
             <!-- Escreva seu código todo dentro de content-wrapper -->
             <div id="content-wrapper">
-                <div id="conteudo" >
+                <div id="conteudo">
                     <div>
-                            <h1> <i class="bi bi-geo-alt-fill"> </i> Porto Seguro-ES <i class="bi bi-heart"> </i> </h1>
-                        <div id="stars" > <i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i> </div>
-                        <div id="mae" >
-                            <img class="perfil" src="img2/image.png" alt="imagem">
-                            <p> Marcela Rodrigues - 10/08/2023 </p>
-                            </div>
-                            <div>
-                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsum aliquid temporibus distinctio fugit magni itaque placeat assumenda praesentium fugiat cum libero blanditiis nihil, voluptatibus aspernatur unde quo. Aspernatur, animi. </p>
-                            </div>
+                        <h1><i class="bi bi-geo-alt-fill"> </i> Porto Seguro-ES <i class="bi bi-heart"> </i></h1>
+                        <div id="stars">
+                            <i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i
+                            ><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                        </div>
+                        <div id="mae">
+                            <img class="perfil" src="img2/image.png" alt="imagem" />
+                            <p>Marcela Rodrigues - 10/08/2023</p>
+                        </div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsum aliquid temporibus
+                                distinctio fugit magni itaque placeat assumenda praesentium fugiat cum libero blanditiis
+                                nihil, voluptatibus aspernatur unde quo. Aspernatur, animi.
+                            </p>
+                        </div>
                         <div class="img">
-                            <img src="img2/image3.png" alt="imagem">
-                            <img src="img2/image2.png" alt="imagem">
-                            <img src="img2/image3.png" alt="imagem">
+                            <img src="img2/image3.png" alt="imagem" />
+                            <img src="img2/image2.png" alt="imagem" />
+                            <img src="img2/image3.png" alt="imagem" />
                         </div>
-                        <h1> <i class="bi bi-geo-alt-fill"> </i> Porto Seguro-ES <i class="bi bi-heart"> </i> </h1>
-                        <div id="stars" > <i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i> </div>
-                            <div id="mae" >
-                            <img class="perfil" src="img2/image.png" alt="imagem">
-                            <p> Marcela Rodrigues - 10/05/2022 </p>
-                            </div>
-                            <div>
-                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsum aliquid temporibus distinctio fugit magni itaque placeat assumenda praesentium fugiat cum libero blanditiis nihil, voluptatibus aspernatur unde quo. Aspernatur, animi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis tempore, optio illo saepe fugiat debitis quia reiciendis adipisci sunt blanditiis nobis rerum commodi fuga, accusamus odio aut fugit dolorem maxime! </p>
-                            </div>
-                        <div class="img" >
-                                <img src="img2/image3.png" alt="imagem">
-                                <img src="img2/image2.png" alt="imagem">
-                                <img src="img2/image3.png" alt="imagem">
+                        <h1><i class="bi bi-geo-alt-fill"> </i> Porto Seguro-ES <i class="bi bi-heart"> </i></h1>
+                        <div id="stars">
+                            <i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i
+                            ><i class="bi bi-star"></i><i class="bi bi-star"></i>
                         </div>
-
+                        <div id="mae">
+                            <img class="perfil" src="img2/image.png" alt="imagem" />
+                            <p>Marcela Rodrigues - 10/05/2022</p>
+                        </div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsum aliquid temporibus
+                                distinctio fugit magni itaque placeat assumenda praesentium fugiat cum libero blanditiis
+                                nihil, voluptatibus aspernatur unde quo. Aspernatur, animi. Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit. Facilis tempore, optio illo saepe fugiat debitis quia
+                                reiciendis adipisci sunt blanditiis nobis rerum commodi fuga, accusamus odio aut fugit
+                                dolorem maxime!
+                            </p>
+                        </div>
+                        <div class="img">
+                            <img src="img2/image3.png" alt="imagem" />
+                            <img src="img2/image2.png" alt="imagem" />
+                            <img src="img2/image3.png" alt="imagem" />
+                        </div>
                     </div>
                 </div>
             </div>
         </main>
     </body>
 </html>
+
+<script>
+    insertHeader()
+</script>

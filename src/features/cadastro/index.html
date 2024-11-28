@@ -8,47 +8,32 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <script src="../header/header.js"></script>
 
         <link rel="stylesheet" href="../../style/style.css" />
         <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap" rel="stylesheet" />
     </head>
     <body>
-        <!-- Não mexer no header! -->
-        <header>
-            <div>
-                <i class="bi bi-geo-alt"></i>
-                Minha Viagem
-            </div>
-            <div><i class="bi bi-person-circle"></i></div>
-        </header>
-
-        <nav>
-            <div class="nav-bar">
-                <a class="ativo" href="/src/index.html"> <i class="bi bi-star-fill"></i> Explorar </a>
-                <a href="/src/features/forum/index.html"> <i class="bi bi-star-fill"></i>Comunidade</a>
-                <a href="/src/features/meu_espaco/index.html"> <i class="bi bi-star-fill"></i>Meu espaço</a>
-            </div>
-        </nav>
 
         <main id="main">
             <!-- Escreva seu código todo dentro de content-wrapper -->
             <div id="content-wrapper">
-                <form name="form_login" action="do_login.html" method="POST">
+                <form id="cadastroForm" name="form_login" action="/src/features/homepage/home.html" method="POST">
                     <br>
                     Bem-vindo, viajante! Cadastre-se abaixo:
                     <br>
-                    <br><input type="email" name="e-mail" value="" placeholder="E-mail" required><br>
-                    <br><input type="name" name="nome_usuario" value="" placeholder="Nome completo" required><br>
+                    <br><input type="email" id="emailInput" value="" placeholder="E-mail" required><br>
+                    <br><input type="name" id="nomeInput" value="" placeholder="Nome completo" required><br>
                     <br>
                     Data de nascimento:
-                    <br><input type="date" name="data de nascimento" value="" placeholder="Data de nascimento"><br>
+                    <br><input type="date" id="dtNascInput" value="" placeholder="Data de nascimento"><br>
                     <br>
-                    <br><input type="text" name="usuario" value="" placeholder="Usuário"><br>
-                    <br><input type="password" name="senha" value="" placeholder="Senha"><br>            
+                    <br><input type="text" id="usuarioInput" value="" placeholder="Usuário"><br>
+                    <br><input type="password" id="senhaInput" value="" placeholder="Senha"><br>            
                     <br>
-                    <input type="checkbox" name="acao" value="tc" required> Ok, concordo com os Termos e Condições.<br>
+                    <input id="termos" type="checkbox" name="acao" value="tc" required> Ok, concordo com os Termos e Condições.<br>
                     <br>
-                    <input type="submit" value="Criar conta">
+                    <button id="botaoForm">Criar conta</button>
                 </form>    
             </div>
             <script src="script.js"></script>
@@ -56,7 +41,6 @@
     </body>
 </html>
 
-<script></script>
-
-<style>
-</style>
+<script>
+    insertHeader()
+</script>

@@ -1,50 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fórum - Nova Postagem</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Nova Postagem</h1>
-        <div class="instructions">
-            <p>Antes de postar...</p>
-            <ul>
-                <li>Idade minima para publicação:13 anos.</li>
-                <li>Anúncios e/ou solicitações não serão aceitos.</li>
-                <li>Podemos remover qualquer publicação se acharmos necessário.</li>
-            </ul>
-            <p>Pra receber as melhores sugestões, lembre-se de incluir:</p>
-            <ul>
-                <li>Seu orçamento</li>
-                <li>Seus companheiros de viagem</li>
-                <li>Sua localização</li>
-                <li>Suas prefêrencias e seus gostos</li>
-            </ul>
-        </div>
-        <form>
-            <label for="titulo">Título</label>
-            <input type="text" id="titulo" placeholder="Escreva seu título aqui">
-            <label for="mensagem">Mensagem</label>
-
-            
-            <div class="message-container">
-                <div class="icons">
-                    <i class="fa-solid fa-paperclip" title="Anexar arquivo"></i>
-                    <i class="fa-solid fa-link" title="Adicionar Link"></i>    
-                    <i class="fa-solid fa-image" title="Adicionar imagem"></i>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fórum - Nova Postagem</title>
+        <link rel="stylesheet" href="../../style/style.css" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />,
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+        <script src="../header/header.js"></script>
+    </head>
+    <body>
+        <main id="main">
+            <div id="content-wrapper">
+                <div id="mensagem-sucesso" class="mensagem-sucesso oculto">Postagem enviada com sucesso!</div>
+                <!-- Formulário de Criação de Postagem -->
+                <div class="container formulario-postagem">
+                    <h1>Nova Postagem</h1>
+                    <div class="instructions">
+                        <p>Antes de postar...</p>
+                        <ul>
+                            <li>Idade mínima para publicação: 13 anos.</li>
+                            <li>Anúncios e/ou solicitações não serão aceitos.</li>
+                            <li>Podemos remover qualquer publicação se acharmos necessário.</li>
+                        </ul>
+                        <p>Para receber as melhores sugestões, lembre-se de incluir:</p>
+                        <ul>
+                            <li>Seu orçamento</li>
+                            <li>Seus companheiros de viagem</li>
+                            <li>Sua localização</li>
+                            <li>Suas preferências e seus gostos</li>
+                        </ul>
+                    </div>
+                    <form>
+                        <label for="titulo">Título</label>
+                        <input type="text" id="titulo" placeholder="Escreva seu título aqui" />
+                        <label for="mensagem">Mensagem</label>
+                        <div class="message-container">
+                            <div class="icons">
+                                <i class="fa-solid fa-link" title="Adicionar Link"></i>
+                                <i class="fa-solid fa-image" title="Adicionar imagem"></i>
+                            </div>
+                            <textarea id="mensagem" placeholder="Escreva sua postagem..."></textarea>
+                        </div>
+                        <div class="buttons">
+                            <button type="button" class="cancelar">Cancelar</button>
+                            <button type="submit" class="enviar">Enviar</button>
+                        </div>
+                    </form>
                 </div>
-                <textarea id="mensagem" placeholder="Escreva sua postagem..."></textarea>
+                <!-- Tela de Listagem de Postagens -->
+                <div class="lista-postagens-container" style="display: none">
+                    <h1>Postagens</h1>
+                    <div class="lista-postagens"></div>
+                    <button class="nova-postagem">Nova Postagem</button>
+                </div>
+                <script src="script.js" defer></script>
             </div>
-
-            <div class="buttons">
-                <button type="button" class="cancelar">Cancelar</button>
-                <button type="submit" class="enviar">Enviar</button>
-            </div>
-        </form>
-    </div>
-</body>
+        </main>
+    </body>
 </html>
+
+<script>
+    insertHeader();
+</script>

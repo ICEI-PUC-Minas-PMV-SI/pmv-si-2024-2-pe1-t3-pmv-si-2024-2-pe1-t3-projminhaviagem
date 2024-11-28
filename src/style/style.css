@@ -11,6 +11,13 @@ A EDIÇÃO DESSE ARQUIVO POR DIFERENTES PESSOAS PODE GERAR CONFLITOS DE VERSÃO!
     font-family:"Verdana", serif;
 }
 
+html,
+body {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
 i {
     color: var(--cor-branca);
 }
@@ -42,17 +49,8 @@ nav > div > a {
     transition: red 0.5s ease;
 }
 
-
-
 nav > div > a:hover {
     background-color: var(--cor-secundaria);
-}
-
-html,
-body {
-    padding: 0px;
-    border: 0px;
-    margin: 0px;
 }
 
 header {
@@ -66,7 +64,7 @@ header {
 }
 
 .ativo {
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-secundaria) !important; 
 }
 
 header div {
@@ -131,6 +129,14 @@ button:hover {
     margin: 10px;
 }
 
+.bi-heart:hover{
+    cursor: pointer;
+}
+
+.bi-heart-fill{
+    color: red;
+}
+
 .bi-geo-alt-fill{
     color: black;
     font-size: 1.2em;
@@ -156,6 +162,60 @@ button:hover {
     color: black;
     text-decoration: none;
 }
+
 #linha-botao a:hover{
     background-color: var(--cor-secundaria);
+}
+
+#profile-icon:hover {
+    cursor: pointer;
+}
+
+.login-dialog {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 20px 40px 20px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.205);
+    z-index: 1000;
+}
+
+.login-dialog-content {
+    color: rgb(65, 65, 65);
+    /* width: 200px; */
+    font-size: large;
+}
+
+.login-text {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10px;
+}
+
+.login-text:hover {
+    cursor: pointer;
+}
+
+.input-login {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.login-dialog-content > div > i {
+    color: black;
+    padding-right: 5px;
+    font-size: larger;
+    align-content: center;
+}
+
+
+input[type="text"], input[type="password"], textarea {
+    width: 100%; 
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
 }
