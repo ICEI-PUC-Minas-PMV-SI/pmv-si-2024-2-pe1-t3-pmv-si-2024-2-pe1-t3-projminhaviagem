@@ -1,0 +1,132 @@
+/* Estilos Gerais add */
+body {
+    font-family: 'Inika', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#main {
+    padding: 20px;
+}
+
+#content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.content-columns {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.left-column,
+.right-column {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* Botão de Criar Postagem */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos de Tópicos */
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 22px;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.forum-topic {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: box-shadow 0.3s ease;
+}
+
+.forum-topic:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.forum-topic h3 {
+    font-size: 18px;
+    margin: 0 0 10px;
+    color: #007bff;
+}
+
+.forum-topic h3 a {
+    text-decoration: none;
+}
+
+.forum-topic h3 a:hover {
+    text-decoration: underline;
+}
+
+.forum-meta {
+    font-size: 14px;
+    color: #555;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.forum-meta span {
+    margin-right: 10px;
+}
+
+/* Estilos da Lista */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+ul li a {
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Barra Lateral */
+.left-column,
+.right-column {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
