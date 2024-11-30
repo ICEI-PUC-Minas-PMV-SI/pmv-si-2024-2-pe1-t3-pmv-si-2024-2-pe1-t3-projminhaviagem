@@ -96,6 +96,7 @@ function insertHeader() {
             alert("Usuário autenticado");
             var nome = localStorage.getItem("nome");
             nomeUsuario = nome;
+            location.reload();
         } else {
             alert("Senha ou usuário incorretos");
         }
@@ -121,7 +122,6 @@ function insertHeader() {
         localStorage.setItem("logado", 0);
         switchLoginContent();
         location.reload();
-
     }
 
     function switchLoginContent() {
